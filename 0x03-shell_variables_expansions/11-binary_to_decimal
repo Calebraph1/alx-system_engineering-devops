@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $decimal=$("ibase=2;$binary" | bc)
+echo binary=$((2#BINARY)o)
